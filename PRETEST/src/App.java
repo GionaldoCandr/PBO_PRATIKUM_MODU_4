@@ -5,8 +5,7 @@ public class App {
         String nama = "Gio";
         int umur= 69;
         String jurusan= "Ilkom";
-        Mahasiswa mhsBaru = new Mahasiswa(nama, umur, jurusan);
-        mhsBaru.tampilkanProfil();
+        Mahasiswa mhsBaru = new Mahasiswa();
         input.close();
     }
 }
