@@ -4,5 +4,9 @@ public class App {
         Scanner input = new Scanner(System.in);
         Mahasiswa mhsBaru = new Mahasiswa("Gionaldo", 20, "Ilmu Komputer");
         input.close();
+
+
+
+        
     }
 }
